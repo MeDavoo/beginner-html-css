@@ -9,8 +9,15 @@
     box-sizing: border-box;
 }
 
-div {
-    font-family: "Roboto", sans-serif;
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    background-color: grey;
+    border: 10px solid red;
+
+    margin: 15px;
+    box-sizing: border-box;
 }
 
 .box {
