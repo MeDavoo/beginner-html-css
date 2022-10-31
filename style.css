@@ -1,9 +1,9 @@
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(255, 243, 110);
+    background-color: rgb(208, 219, 255);
     overflow: hidden;
     margin-bottom: 15px;
-    margin-left: 210px;
+    margin-left: 10px;
     border-radius: 10px;
   }
   
@@ -19,9 +19,17 @@
   }
   
   .topnav a:hover {
-    background-color: rgb(255, 191, 0);
+    background-color: rgb(113, 130, 203);
     color: black;
   }
+
+.logo {
+    width: 100%;
+    max-width: 200px;
+    background-color: aqua;
+    font-family: "Roboto", sans-serif;
+    position: fixed;
+}
 
 .text {
     width: 100%;
