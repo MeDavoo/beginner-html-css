@@ -1,33 +1,34 @@
 .textbox {
     width: 100%;
-    height:500px;
+    height:90vh;
     max-width: 200px;
     background-color: rgb(40, 35, 78);
     color: rgb(255, 255, 255);
     text-align: center;
     text-shadow: 10px black;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 14px;
     font-weight: 500;
     position: absolute;
     font-style: bold;
-    font-family: "Roboto", sans-serif;
 }
 
 .text{
-    width: 70%;
-    height:75px;
+    width: auto;
+    height:55px;
     max-width: 200px;
+    margin: 10px;
+    padding-top: 5px;
     background-color: rgb(56, 50, 99);
     color: rgb(255, 255, 255);
     text-align: center;
+    line-height: normal;
     text-shadow: 10px black;
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 17px;
     font-weight: 500;
     position: absolute;
     font-style: bold;
-    font-family: "Roboto", sans-serif;
 }
 
 .navbar{
@@ -37,8 +38,8 @@
 
 .maintext{
 width: 70%;
-height: 100%;
-border: 5px solid rgb(26, 26, 26);
+height: 100vh;
+border: 5px solid rgb(29, 24, 53);
 background-color: rgb(26, 26, 26);
 border-radius: 5px;
 margin-left: 215px;
@@ -75,6 +76,42 @@ position: absolute
     background-image:url(https://blog.logrocket.com/wp-content/uploads/2022/06/performance-unity-async-await-tasks-oroutines-job-system-burst-compiler.png)
 }
 
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #111;
+    height: auto;
+    width: 100vw;
+    padding-top: 30px;
+    margin-top: 50px;
+    color: #fff;
+
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-background-color: rgb(68, 45, 153);
+    background-color: rgb(68, 45, 153);
+    font-family: "Roboto", sans-serif;
 }
