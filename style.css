@@ -71,7 +71,7 @@ header ul li a:hover
 }
 
 .text{
-    width: auto;
+    width: 180px;
     height:55px;
     max-width: 200px;
     margin: 10px;
@@ -80,12 +80,10 @@ header ul li a:hover
     color: rgb(255, 255, 255);
     text-align: center;
     line-height: normal;
-    text-shadow: 10px black;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 17px;
     font-weight: 500;
     position: absolute;
-    font-style: bold;
 }
 
 .text1{
@@ -93,17 +91,17 @@ header ul li a:hover
     height:55px;
     max-width: 200px;
     margin: 10px;
+    margin-top: 445px;
     padding-top: 5px;
-    background-color: rgb(56, 50, 99);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 204, 0);
+    color: rgb(27, 27, 27);
     text-align: center;
     line-height: normal;
-    text-shadow: 10px black;
-    border-radius: 15px;
+    border-radius: 20px;
     font-size: 17px;
     font-weight: 500;
     position: absolute;
-    font-style: bold;
+    -webkit-text-stroke: #111 0.8px;
 }
 
 .navbar{
@@ -132,15 +130,17 @@ position: absolute
     max-width: 165px;
     border-radius: 10px;
     margin-top: 75px;
-    margin-left: 17px;
+    margin-left: -83px;
     border: 5px solid rgb(0, 0, 0);
+    font-size: 25px;
+    -webkit-text-stroke: 1.2px;
     position: absolute;
     background-size:cover;
-    background-image:url(https://blog.logrocket.com/wp-content/uploads/2022/06/performance-unity-async-await-tasks-oroutines-job-system-burst-compiler.png)
+    background-image:url(assets/cubegameunity.png);
 }
 
 .box1:hover{
-    border: 4px solid rgb(200, 188, 255);
+    border: 3px solid rgb(200, 188, 255);
 
 }
 
@@ -151,7 +151,7 @@ position: absolute
     max-width: 165px;
     border-radius: 10px;
     margin-top: 195px;
-    margin-left: 17px;
+    margin-left: -83px;
     border: 5px solid rgb(0, 0, 0);
     position: absolute;
     background-size:cover;
@@ -159,7 +159,7 @@ position: absolute
 }
 
 .box2:hover{
-    border: 4px solid rgb(200, 188, 255);
+    border: 3px solid rgb(200, 188, 255);
 }
 
 .box3{
@@ -169,7 +169,7 @@ position: absolute
     max-width: 165px;
     border-radius: 10px;
     margin-top: 315px;
-    margin-left: 17px;
+    margin-left: -83px;
     border: 5px solid rgb(0, 0, 0);
     position: absolute;
     background-size:cover;
@@ -177,7 +177,7 @@ position: absolute
 }
 
 .box3:hover{
-    border: 4px solid rgb(200, 188, 255);
+    border: 3px solid rgb(200, 188, 255);
 }
 
 footer{
